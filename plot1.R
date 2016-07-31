@@ -11,6 +11,6 @@ GlobalActivePower <- as.numeric(SubsetData$Global_active_power)
 ## Create the histogram
 hist(GlobalActivePower, col="red", main="Global Active Power", xlab="Global Active Power (kilowatts)")
 
-## Save the plot to the working drectory
+## Save the plot to the working directory
 dev.copy(png, file="plot1.png", height=480, width=480)
 dev.off()
